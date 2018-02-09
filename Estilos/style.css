@@ -1,0 +1,92 @@
+.titulo {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formulario {
+    width: 17.7%;
+    margin: 0 auto;
+}
+
+.botones {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.txt {
+    margin: 25px 25px 0px 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    width: 300px;
+    font-size: 15px;
+}
+
+.txt:focus {
+    outline: 0px;
+    border-bottom-width: 3px;
+    animation-name: animacion;
+    animation-timing-function: linear;
+    animation-duration: 400ms;
+    border-bottom-color: rgb(21, 202, 21);
+    font-size: 18px;
+}
+
+.btn {
+    margin: 25px 25px 0px 0px;
+    padding: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    font-size: 18px;
+}
+
+.btnAzul {
+    border-bottom-color: #1f80c0;
+    background-color: #3498db;
+}
+
+.btnRojo {
+    border-bottom-color: rgb(133, 36, 41);
+    background-color: #AE181F;
+}
+
+.btnNaranja {
+    border-bottom-color: rgb(173, 80, 59);
+    background-color: #D95232;
+}
+
+.btnAzul:hover {
+    border-bottom-color: #0e93ec;
+    background-color: #71bcee;
+}
+
+.btnRojo:hover {
+    border-bottom-color: rgb(255, 5, 17);
+    background-color: rgb(219, 89, 95);
+}
+
+.btnNaranja:hover {
+    border-bottom-color: rgb(255, 47, 0);
+    background-color: rgb(221, 105, 81);
+}
+
+@keyframes animacion {
+    from {
+        border-bottom-color: black;
+        font-size: 15px;
+        border-bottom-width: 1px;
+    }
+    to {
+        border-bottom-color: rgb(21, 202, 21);
+        border-bottom-width: 3px;
+        font-size: 18px;
+    }
+}
