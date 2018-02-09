@@ -8,9 +8,13 @@ function add() {
     if (id.value == "") {
         id = "No se ha introducido un id para la pelicula";
 
+    }else{
+        id = id.value;
     }
     if (nombre.value == "") {
         nombre = "No se ha introducido un nombre para la pelicula";
+    }else{
+        nombre = nombre.value;
     }
 
     //mensaje mostrando la informacion agregada
