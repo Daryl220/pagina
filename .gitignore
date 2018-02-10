@@ -1,3 +1,35 @@
-# Archivos de prueba #
+# Recurso Compilado #
 ######################
-*.html
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.sh
+
+# Paquetes #
+############
+*.7z
+*.dmg
+*.iso
+*.jar
+*.tar
+*.rar
+*.zip
+
+# Logs y Bases De Datos #
+#########################
+*.log
+*.sql
+*.sqlite
+
+# Archivos Generasos Por El SO #
+################################
+.DS_Store
+.DS_Store7
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
